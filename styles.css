@@ -14,7 +14,7 @@ body {
     color: white;
     position: fixed;
     top: 0;
-    left: -18%; /* Hidden initially */
+    left: -100%; /* Hidden initially */
     transition: left 0.3s ease;
     padding: 20px;
 }
@@ -31,6 +31,12 @@ body {
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.divider {
+    border: 0;
+    border-top: 2px solid #fff; /* White solid line */
+    margin: 20px 0; /* Space around the line */
 }
 
 /* Navigation Styles */
