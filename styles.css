@@ -11,14 +11,15 @@ body {
     width: 250px;
     height: 100vh;
     background-color: #1d1f23;
+    color: white;
     position: fixed;
     top: 0;
-    left: -250px; /* Initially hidden */
-    transition: 0.3s ease;
+    left: -250px; /* Sidebar is initially hidden */
+    transition: 0.3s; /* Smooth transition effect */
     padding: 20px;
 }
 
-.sidebar a {
+.sidebar nav a {
     display: block;
     color: white;
     text-decoration: none;
@@ -26,7 +27,7 @@ body {
     font-size: 18px;
 }
 
-.sidebar a:hover {
+.sidebar nav a:hover {
     color: #1DA1F2;
 }
 
