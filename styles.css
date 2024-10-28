@@ -8,13 +8,13 @@ body {
 
 /* Sidebar Styles */
 .sidebar {
-    width: 18%; 
+    width: 22%; 
     height: 100vh;
     background-color: #1d1f23;
     color: white;
     position: fixed;
     top: 0;
-    left: -18%; /* Hidden initially */
+    left: -300px; /* Hidden initially */
     transition: left 0.3s ease;
     padding: 20px;
 }
