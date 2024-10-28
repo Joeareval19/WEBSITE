@@ -14,7 +14,7 @@ body {
     color: white;
     position: fixed;
     top: 0;
-    left: -250px; /* Sidebar is initially hidden */
+    left: -450px; /* Sidebar is initially hidden */
     transition: 0.3s; /* Smooth transition effect */
     padding: 20px;
 }
