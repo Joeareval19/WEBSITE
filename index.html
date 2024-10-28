@@ -9,16 +9,14 @@
 <body>
 
     <!-- Sidebar -->
-    <aside class="sidebar">
+    <div id="sidebar" class="sidebar">
         <h2>Menu</h2>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Explore</a>
-            <a href="#">Notifications</a>
-            <a href="#">Messages</a>
-            <a href="#">Bookmarks</a>
-            <a href="#">Profile</a>
-        </nav>
+        <a href="#">Home</a>
+        <a href="#">Explore</a>
+        <a href="#">Notifications</a>
+        <a href="#">Messages</a>
+        <a href="#">Bookmarks</a>
+        <a href="#">Profile</a>
         <div class="profile">
             <img src="https://via.placeholder.com/50" alt="Profile Picture">
             <div>
@@ -26,10 +24,11 @@
                 <span>@joeareval19</span>
             </div>
         </div>
-    </aside>
+    </div>
 
     <!-- Main Content -->
-    <main class="main-content">
+    <div class="main-content">
+        <button id="toggleBtn" class="toggle-btn">☰ Toggle Sidebar</button>
         <header class="header">
             <img src="https://via.placeholder.com/80" alt="Cover Photo">
             <div>
@@ -53,7 +52,8 @@
             <h3>Explore</h3>
             <p>Discover new content and people to follow!</p>
         </section>
-    </main>
+    </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
