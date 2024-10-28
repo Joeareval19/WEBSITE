@@ -3,43 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MC Tamayo</title>
+    <title>Joeareval19 Profile Page</title>
     <style>
+        /* General Styles */
         body {
-            background-color: #f0f0f5;
+            margin: 0;
             font-family: Arial, sans-serif;
-        }
-
-        h1 {
-            color: #4CAF50;
-            text-align: center;
-        }
-
-        p {
-            color: #555;
-            text-align: center;
-        }
-
-        /* Add a simple button style */
-        .button {
-            display: block;
-            margin: 20px auto;
-            padding: 10px 20px;
-            background-color: #4CAF50;
+            background-color: #000; /* Dark mode background */
             color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
         }
 
-        .button:hover {
-            background-color: #45a049;
+        /* Sidebar Styles */
+        .sidebar {
+            width: 20%;
+            height: 100vh;
+            background-color: #1d1f23;
+            position: fixed;
+            padding: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            font-size: 18px;
+        }
+
+        .sidebar a:hover {
+            color: #1DA1F2; /* Twitter Blue */
+        }
+
+        .sidebar .profile {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: 20%;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: #000;
+            padding: 10px 20px;
+        }
+
+        .header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .posts {
+            margin-top: 20px;
+            background-color: #1d1f23;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .post {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #2b2d31;
+            border-radius: 8px;
+        }
+
+        .post h2 {
+            margin: 0 0 5px 0;
+            font-size: 20px;
+        }
+
+        .explore {
+            margin-top: 20px;
+        }
+
+        .explore h3 {
+            color: #888;
         }
     </style>
 </head>
 <body>
-    <h1>Maria Clara's New Website</h1>
-    <p>This is going to be the webpage for my portfolio.</p>
-    <button class="button">Click Me!</button>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <a href="#">Home</a>
+        <a href="#">Explore</a>
+        <a href="#">Notifications</a>
+        <a href="#">Messages</a>
+        <a href="#">Bookmarks</a>
+        <a href="#">Profile</a>
+        <div class="profile">
+            <img src="https://via.placeholder.com/50" alt="Profile Picture">
+            <div>
+                <strong>Joeareval19</strong><br>
+                <span>@joeareval19</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="header">
+            <img src="https://via.placeholder.com/80" alt="Cover Photo">
+            <div>
+                <h1>Joeareval19</h1>
+                <p>Learning something new everyday!</p>
+            </div>
+        </div>
+
+        <div class="posts">
+            <div class="post">
+                <h2>Pinned Post</h2>
+                <p>The Art of Learning XXI</p>
+            </div>
+            <div class="post">
+                <h2>Latest Post</h2>
+                <p>This is another post on my profile!</p>
+            </div>
+        </div>
+
+        <div class="explore">
+            <h3>Explore</h3>
+            <p>Discover new content and people to follow!</p>
+        </div>
+    </div>
+
 </body>
 </html>
