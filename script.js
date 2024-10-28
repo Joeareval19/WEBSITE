@@ -1,13 +1,13 @@
 const toggleBtn = document.getElementById('toggleBtn');
 const sidebar = document.getElementById('sidebar');
 
-// Toggle sidebar visibility when the button is clicked
+// Toggle the sidebar visibility
 toggleBtn.addEventListener('click', (event) => {
     sidebar.classList.toggle('visible');
-    event.stopPropagation(); // Prevent event bubbling to document
+    event.stopPropagation(); // Prevent the click from triggering document event
 });
 
-// Close the sidebar when clicking outside of it
+// Close sidebar when clicking outside of it
 document.addEventListener('click', (event) => {
     const isClickInside = sidebar.contains(event.target) || toggleBtn.contains(event.target);
     
