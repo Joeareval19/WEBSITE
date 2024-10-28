@@ -8,14 +8,14 @@ body {
 
 /* Sidebar Styles */
 .sidebar {
-    width: 250px;
+    width: 18%; /* Sidebar takes 18% of the screen width */
     height: 100vh;
     background-color: #1d1f23;
     color: white;
     position: fixed;
     top: 0;
-    left: -450px; /* Sidebar is initially hidden */
-    transition: 0.3s; /* Smooth transition effect */
+    left: -18%; /* Initially hidden to the left */
+    transition: left 0.3s ease; /* Smooth transition effect */
     padding: 20px;
 }
 
